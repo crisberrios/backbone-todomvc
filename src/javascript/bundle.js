@@ -1,9 +1,8 @@
-// Browserify entry point
 var $ = require('npm-zepto');
-var _ = require('underscore');
-var Backbone = require('backbone');
-Backbone.$ = $;
+var AppView = require('../views/AppView');
 
-
-
+$(function() {
+  // Kick things off by creating the **App**.
+  new AppView();
+});
 

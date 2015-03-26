@@ -1,21 +1,9 @@
-@import "normalize/normalize";
-@import "bourbon/bourbon";
-@import "neat/neat";
-@import "base/base";
-@import "textures/textures";
 @import "index/index";
-
-hr {
-  margin: 20px 0;
-  border: 0;
-  border-top: 1px dashed #c5c5c5;
-  border-bottom: 1px dashed #f7f7f7;
-}
 
 .learn a {
   font-weight: normal;
   text-decoration: none;
-  color: #b83f45;
+  color: #b83f46;
 }
 
 .learn a:hover {
