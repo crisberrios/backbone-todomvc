@@ -1,5 +1,9 @@
 // Browserify entry point
-//var $ = require('jquery');
-//var velocity = require('velocity-animate');
+var $ = require('npm-zepto');
+var _ = require('underscore');
+var Backbone = require('backbone');
+Backbone.$ = $;
+
+
 
 
