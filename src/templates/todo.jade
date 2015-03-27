@@ -1,5 +1,5 @@
 .view
-  input.toggle(type="checkbox")= completed ? 'checked' : ''
+  input.toggle(type="checkbox" checked= completed ? true : false )
   label= title
   button.destroy
 input.edit(value=title)
